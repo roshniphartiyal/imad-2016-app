@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-color:pink;
     margin-top: 75px;
 }
 
@@ -20,3 +20,12 @@ body {
     height: 200px;
 }
 
+.one{
+     max-width:800px;
+     margin:0 auto;
+     color:green;
+     font-family:sans-serif;
+    padding: 19px;
+    border: solid;
+    border-color: black;
+ }
