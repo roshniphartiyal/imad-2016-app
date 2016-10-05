@@ -1,4 +1,7 @@
 console.log('Loaded!');
+
+//wrong one
+
 document.getElementById('imgid').onclick = function()
 {
     setInterval(moveRight,100);
