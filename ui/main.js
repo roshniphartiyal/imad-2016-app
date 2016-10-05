@@ -5,5 +5,5 @@ document.getElementById('imgid').onclick = function()
 };
 function moveRight(){
   marginLeft=marginLeft + 10;
-  
+  imgid.style.marginLeft = marginLeft + 'px';
 }
