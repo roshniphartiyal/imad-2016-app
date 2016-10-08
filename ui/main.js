@@ -11,7 +11,7 @@ function moveRight(){
   imgid.style.marginLeft = marginLeft + 'px';
 }
 
-var imgid = document.getElementById('imgid');
+var imgid = document.getElementById('madi');
  imgid.onlick = function(){
   imgid.style.marginLeft = '100px';
  };
