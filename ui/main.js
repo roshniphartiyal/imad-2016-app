@@ -17,6 +17,7 @@ marginLeft =  0;
  var interval = setInterval(moveRight,50);
  }
 
+//for changing the margin
 /*
 img.onclick = function() {
   img.style.marginLeft = '500px';
