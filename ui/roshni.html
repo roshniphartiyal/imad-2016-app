@@ -19,19 +19,16 @@
         <h3>professional</h3>
         <p>I am a student</p>
     </div>
-    
-  <button type="button" onclick="click()">Click Me!</button>
-    <p>Clicks: <a id="clicks">0</a></p>
+    <button onclick= "addone(myfield);">
+        click me
+    </button>    
 
     
      <script  type='text/javascript' src='/ui/main.js'>
-         var click = 0;
-         function clicker(){
-        c
-         click = click + 1;
-         document.getElementById("clicks").innerHTML = clicks;
-             
-         }
+       function addone(field) {
+field.value = Number(field.value) + 1;
+}
+
      </script>
 </body>
 </html>
