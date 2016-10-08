@@ -7,9 +7,6 @@ body {
 .center {
     text-align: center;
  
-  width: 100px ;
-  height:100px;
- 
 }
 
 .text-big {
@@ -21,7 +18,8 @@ body {
 }
 
 .img-medium {
-    height: 200px;
+    height: 100px;
+    width: 100px;
 }
 
 .one{
