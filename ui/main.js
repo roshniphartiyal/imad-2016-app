@@ -15,9 +15,9 @@ function moveRight(){
 }
 */
 
-var imgid = document.getElementById('madi');
- imgid.onlick = function(){
-  imgid.style.marginLeft = '500px';
+var img = document.getElementById('madi');
+ img.onlick = function(){
+  img.style.marginLeft = '500px';
  
      
      
