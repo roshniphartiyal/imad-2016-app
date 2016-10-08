@@ -20,9 +20,18 @@
         <p>I am a student</p>
     </div>
     
-  <button type="button">Click Me!</button>
+  <button type="button" onclick="click()">Click Me!</button>
+    <p>Clicks: <a id="clicks">0</a></p>
+
     
-    
-     <script type='text/javascript' src='/ui/main.js'></script>
+     <script  type='text/javascript' src='/ui/main.js'>
+         var click = 0;
+         function clicker(){
+        c
+         click = click + 1;
+         document.getElementById("clicks").innerHTML = clicks;
+             
+         }
+     </script>
 </body>
 </html>
