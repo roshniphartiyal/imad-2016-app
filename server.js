@@ -18,6 +18,11 @@ app.get('/articletwo', function (req, res) {
 });
 
 
+app.get('/roshni', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshni.html'));
+})
+
+
 app.get('/index', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
