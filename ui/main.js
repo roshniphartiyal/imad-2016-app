@@ -17,7 +17,7 @@ function moveRight(){
 
 var imgid = document.getElementById('madi');
  imgid.onlick = function(){
-  imgid.style.marginLeft = '100px';
+  imgid.style.marginLeft = '500px';
  
      
      
