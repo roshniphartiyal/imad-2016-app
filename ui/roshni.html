@@ -19,9 +19,14 @@
         <h3>professional</h3>
         <p>I am a student</p>
     </div>
-    <button onclick= "addone(myfield);">
-        click me
-    </button>    
+    <div>
+        <form name="myform">
+<!--input type="submit" onclick="this.disabled = true" value="Save" -->
+<input type="text" name="myfield" value="0" size="5" readonly="readonly"><br>
+<input type="button" value="Like!" onclick="addone(myfield);" > 
+
+</form>
+    </div>  
 
     
      <script  type='text/javascript' src='/ui/main.js'>
