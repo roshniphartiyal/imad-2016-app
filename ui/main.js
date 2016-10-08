@@ -1,8 +1,7 @@
 console.log('Loaded!');
 
 
-var img = document.getElementById('madi');
- img.onlick = function() {
+var img = document.getElementById('madi').onlick = function() {
   img.style.marginLeft = '500px';
      
  };
