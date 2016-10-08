@@ -22,6 +22,13 @@ app.get('/roshni', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'roshni.html'));
 })
 
+var counter=0;
+app.get('/counter', function (req, res) {
+  counter = counter +1;
+  res.send(counter);
+})
+
+
 
 app.get('/index', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
