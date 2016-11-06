@@ -1,6 +1,7 @@
 
 .top{
 position:fixed; 
+border: 2px solid #73AD21;
 top:2%; 
 right:2%;
 }
