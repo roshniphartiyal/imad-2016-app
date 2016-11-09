@@ -2,12 +2,32 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
+//Shashank
+var Pool = require('pg').Pool;
+
+//Shashank
+var config = {
+  host: 'db.imad.hasura-app.io',
+  user: 'roshniphartiyal',
+  password: 'db-roshniphartiyal-27879', //See it later
+  database: 'roshniphartiyal',
+  port: '5432'
+};
+
+//Shashank
+var pool = new Pool(config);
+
 var app = express();
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'login.php'));
 });
+
+//Shashank
+app.get('/roshniphartiyal-db', function (req, res) {
+});
+
 /*
 app.get('/articleone', function (req, res) {
   res.sendFile(path.join(__dirname,'ui','articleone.html'));
