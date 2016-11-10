@@ -21,7 +21,7 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname,'ui', 'login.php'));
+  res.sendFile(path.join(__dirname,'ui', 'cascade.html'));
 });
 
 //Shashank
